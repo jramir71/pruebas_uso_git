@@ -3,4 +3,5 @@ class Persona():
         self.nombre = nombre
         self.apellido = apellido
         self.edad = edad
-    
+    def saluda(self):
+        print(f"Hola, soy {self.nombre} {self.apellido}")
